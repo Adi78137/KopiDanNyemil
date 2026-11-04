@@ -1,6 +1,6 @@
 # ☕ Kopi dan Nyemil
 
-Aplikasi mobile pemesanan kopi dan camilan berbasis **Android (Kotlin + XML Views)**, dibuat untuk tugas mata kuliah **Pemrograman Mobile**. Tampilan dan alur mengikuti wireframe "Kopi dan Nyemil", lalu dikembangkan dengan tema warna cokelat-krem yang hangat dan komponen Material Design.
+Aplikasi mobile pemesanan kopi dan camilan berbasis **Android (Kotlin + XML Views)**, dibuat untuk UTS mata kuliah **Pengembangan Aplikasi Mobile**. Tampilan dan alur mengikuti wireframe "Kopi dan Nyemil", lalu dikembangkan dengan tema warna cokelat-krem yang hangat dan komponen Material Design.
 
 ## Deskripsi
 
