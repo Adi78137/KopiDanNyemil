@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvGreeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Halo Nama,"
+            android:textColor="@color/dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/bg_circle_green"
+                android:gravity="center"
+                android:text="OK"
+                android:textColor="#FF0B7A3E"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:lineSpacingExtra="4dp"
+                android:text="Terima kasih sudah memesan\ntunggu aja sebentar kurir kami\nsegera mengantarkan pesananmu!"
+                android:textColor="@color/dark"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOke"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Oke"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/dark"
+            app:cornerRadius="14dp" />
+    </LinearLayout>
+</LinearLayout>
